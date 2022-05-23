@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Game</title>
+    <script
+     src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <!-- <script>
+      window.jquery$document.ready(function(){
+        window.jQuery("tr:odd" ).css("background-color","#FFFFFF" );
+       window.jQuery("tr:even").css("background-color","#000000");
+    });
+
+        
+    </script> -->
+    <style>
+        .tile{ border-spacing: 0; border-collapse: collapse; }
+            
+            /* .tile.td {  solid; width: 2em; height: 2em; box-shadow: 20px; } */
+            .tile .white { background: #fff; }
+            .tile .dark { background: #000; }
+            .dark{width: 200px; height: 180px; }
+            .dark{width: 200px; height: 180px;}
+            .tile{border-radius: 20px; margin-left: 200px;}
+            
+    </style>
+</head>
+<body>
+    <table class="tile" border="5px">
+  <tr>
+    <td id="a" class="dark"></td>
+    <td id="b" class="white"></td>
+    <td id="c" class="dark"></td>
+    </tr>
+    <tr>
+    <td id="d" class="white"></td>
+    <td id="e" class="dark"></td>
+    <td id="f" class="white"></td>
+    </tr>
+    <tr>
+    <td id="g" class="dark"></td>
+    <td id="h" class="white"></td>
+    <td id="i" class="dark"></td>
+ </tr>
+ </table>
+
+
+ <p id="p"></p>
+<script src="index.js"></script>
+</body>
+</html>
